@@ -1,0 +1,30 @@
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+  > * {
+    padding-left: 30px;
+  }
+  li {
+    font-size: 1rem;
+    list-style-type: square;
+    list-style-position: inside;
+  }
+  h1 {
+    font-size: 62px;
+    -webkit-margin-before: 0;
+    padding-top: 40px;
+  }
+  p {
+    width: 55%;
+    min-width: 550px;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
